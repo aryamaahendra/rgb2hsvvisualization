@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Document</title>
+</head>
+<body>
+   <label for="normal">Normal: </label>
+   <input type="file" name="normal[]" id="normal" multiple>
+   <label for="formalin">Formalin: </label>
+   <input type="file" name="formalin[]" id="formalin" multiple>
+   <label for="notFresh">Tidak Fresh: </label>
+   <input type="file" name="notFresh[]" id="notFresh" multiple>
+   <button id="logValue">Log Value</button>
+   <div id="tester" style="width:95vw;height:95vh;"></div>
+   <script src="./plotly-latest.min.js"></script>
+   <script src="./avg_svg.js"></script>
+</body>
+</html>
